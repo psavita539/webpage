@@ -49,4 +49,54 @@ footer {
     background: #c7196d;
     color: #fff;
     text-align: center;
+    padding-top: 15px;
 }
+/* Media Query Section Start */
+    @media screen and (max-width:768px){
+        header{
+            text-align: center;
+        }
+        section aside{
+            padding-left: 5px;
+            width: auto;
+            float: none;
+            text-align: center;
+        }
+        aside h3{
+        font-size: medium;
+        margin: 0px -4px;
+       } 
+        aside ul li{
+        margin-top: 5px;
+       }
+       section main{
+        width: auto;
+       }
+       footer h1{
+        font-size: medium;
+        padding-top: 20px;
+       }    
+    }
+    @media screen and (max-width:576px){
+        section aside{
+            padding-left: 5px;
+            width: auto;
+            float: none;
+            text-align: center;
+        }
+        aside h3{
+        font-size: medium;
+        margin: 0px -4px;
+       } 
+        aside ul li{
+        margin-top: 5px;
+       }
+       section main{
+        width: auto;
+       }
+       footer h1{
+        font-size: medium;
+        padding-top: 20px;
+       }    
+    }
+/* /Media Query Section End */
